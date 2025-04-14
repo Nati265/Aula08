@@ -1,13 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 *{
-	margin:0px
+	margin:0px;
 	padding:0px;
-}
-body{
-	background-image:url(../img/fundo.webp);
-	background-repeat: no-repeat;
-	background-size: 100vw 100vh;
-	background-attachment: fixed;
 }
 section{
 	display: flex;
@@ -57,7 +51,7 @@ section.titulo{
 	text-align: center;
 }
 section.titulo h1{
-	font-family: "Wallpoet", sans-serif;
+	font-family: "Bungee Spice", sans-serif;
 	font-size: 2vw;
 }
 section.conteudo{
@@ -91,9 +85,9 @@ section.conteudo{
 	height: auto;
 }
 #texto p{
-	font-family: "Shadows Into Light", cursive;
-	font-size: 1.5vw;
-	color:white;
+	font-family: : "Bungee Spice", sans-serif;
+	font-size: 1.0vw;
+	color: orange;
 }
 section.link{
 	width: 90vw;
@@ -104,7 +98,7 @@ section.link{
 	border: 2px inset black;
 }
 section.link div a{
-	font-family: "Jokerman", fantasy;
+	font-family: : "Bungee Spice", sans-serif;
 	font-size: 1.8vw;
 	color: white;
 	text-decoration: none;
@@ -153,3 +147,98 @@ section.mapa iframe{
 	width: 60%;
 	height: 100%;
 }
+section.verde{
+	width: 90vw;
+	height: 10vh;
+	background-color: green;
+	margin-left: 5vw;
+}
+section.verde h1{
+	color: white;
+}
+section.laranja{
+	width: 90vw;
+	margin-left: 5vw;
+	height: 60vh;
+	margin-top: 3vh;
+	background-color: orange;
+}
+#azulzinha{
+	width: 50%;
+	height: 100%;
+	background-color: cyan;
+}
+#azul{
+	width: 50%;
+	height: 100%;
+	background-color: darkblue;
+	flex-direction: column;
+}
+#amarela{
+	width: 100%;
+	height: 50%;
+	background-color: yellow;
+	flex-direction: row;
+}
+#vermelha{
+	width: 100%;
+	height: 50%;
+	background-color: red;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+#roxa{
+	width: 50%;
+	height: 100%;
+	background-color: purple;
+}
+#rosa{
+	width: 50%;
+	height: 100%;
+	background-color: pink;
+}
+section.preta{
+	width: 90vw;
+	height: 10vh;
+	margin-left: 5vw;
+	margin-top: 3vh;
+	background-color: black;
+}
+section.preta div a{
+	color: white;
+	font-family: "Trebuchet",cursive;
+}
+#roxa img{
+	width: 80%;
+	height: 80%;
+}
+section.titulo h1{
+	font-family: "Bungee Spice", sans-serif;
+	font-size: 2vw;
+}
+section.link div a{
+	font-family: : "Bungee Spice", sans-serif;
+	font-size: 1.8vw;
+	color: orange;
+	text-decoration: none;
+}
+section.dragon{
+	background-color: orange;
+	height: 5vh;
+}
+section.dragon h1{
+	 font-family: "Bungee Spice", sans-serif;
+}
+section.link {
+	background-color: orange;
+	font-family:"Bungee Spice", sans-serif;
+}
+body.dbz{
+	background-image:url(../img/dbz.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+
